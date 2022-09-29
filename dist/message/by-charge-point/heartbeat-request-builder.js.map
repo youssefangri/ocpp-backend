@@ -1,0 +1,1 @@
+{"version":3,"file":"heartbeat-request-builder.js","sourceRoot":"","sources":["../../../src/message/by-charge-point/heartbeat-request-builder.ts"],"names":[],"mappings":";;;AACA,oEAAiE;AAEjE,MAAa,uBAAuB;IAApC;QAKE,qBAAgB,GAAG,GAAG,EAAE,CAAC,WAAW,CAAC;IACvC,CAAC;IALC,KAAK;QACH,OAAO,IAAI,mCAAgB,EAAE,CAAC;IAChC,CAAC;CAGF;AAND,0DAMC"}
