@@ -34,11 +34,9 @@ export class StationsService {
   }
 
   async createStation(createStationDto: CreateOrUpdateStationDto) {
-    this.logger.log(`Adding to db`);
     const station = await this.stationRepository.createStation(createStationDto);
 
     // station is created, connect it to Central System
-    this.logger.log(`Station is ${station}`);
     this.connectStationToCentralSystem(station);
     return station;
   }

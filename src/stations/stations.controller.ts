@@ -26,7 +26,6 @@ export class StationsController {
   @Get()
   @UsePipes(ValidationPipe)
   getStations(@Query() filterDto: GetStationsFilterDto): Promise<Station[]> {
-    this.logger.log(`Getting all stations.`);
     return this.stationsService.getStations(filterDto);
   }
 

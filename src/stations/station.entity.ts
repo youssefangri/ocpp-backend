@@ -18,7 +18,7 @@ export class Station extends BaseEntity {
   centralSystemUrl: string;
 
   @Column()
-  meterValue: string = "0";
+  meterValue: number = 0;
 
   @Column()
   chargeInProgress: boolean = false;
